@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>To Do List</h1>
+        <div class="task-input">
+            <img src="icon.png" alt="icon">
+            <input type="text" placeholder="Add a new task" id="newTask"
+                onkeydown="if (event.key === 'Enter') addTask()">
+            <button class="add-btn" onclick="addTask()">Add</button>
+        </div>
+        <div class="controls">
+            <div class="filters">
+                <span class="active" id="all" onclick="showAllTasks()">All</span>
+                <span id="pending" onclick="showPendingTasks()">Pending</span>
+                <span id="completed" onclick="showCompletedTasks()">Completed</span>
+            </div>
+            <button class="clear-btn" onclick="clearAllTasks()">Clear All</button>
+        </div>
+        <ul class="task-box" id="tasks"></ul>
+        <p class="message" id="noPendingTasksMessage">You don't have any pending tasks.</p>
+        <p class="message" id="noCompletedTasksMessage">You don't have any completed tasks.</p>
+        <script src="script.js"></script>
+</body>
+
+</html>
