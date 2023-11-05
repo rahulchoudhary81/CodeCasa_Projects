@@ -1,0 +1,135 @@
+ body {
+     font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+     background-color: #f5d090;
+ }
+
+ .wrapper {
+     max-width: 500px;
+     margin: 135px auto;
+     background: #fbf8de;
+     border-radius: 10px;
+     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+     padding: 20px;
+ }
+
+ .wrapper h1 {
+     margin: 0;
+     text-align: center;
+ }
+
+ .task-input {
+     display: flex;
+     align-items: center;
+     margin: 12px 0;
+ }
+
+ .task-input img {
+     width: 26px;
+     height: 24px;
+     position: absolute;
+     padding-left: 15px;
+ }
+
+ .task-input input {
+     height: 42px;
+     width: 380px;
+     font-size: 18px;
+     padding-left: 58px;
+     border: 1px solid #ccc;
+     border-radius: 6px;
+ }
+
+ .add-btn {
+     background-color: rgba(236, 156, 18, 0.66);
+     border-radius: 4px;
+     height: 45px;
+     cursor: pointer;
+     margin-left: 10px;
+     border: none;
+     width: 52px;
+     font-size: 16px;
+ }
+
+ .add-btn:hover {
+     background-color: #d09c42;
+ }
+
+ .controls {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .filters {
+     display: flex;
+     font-size: 18px;
+ }
+
+ .filters span {
+     margin-right: 15px;
+     cursor: pointer;
+ }
+
+ .filters span.active {
+     color: #865d09;
+     font-weight: bold;
+ }
+
+ .clear-btn {
+     background-color: rgba(236, 156, 18, 0.66);
+     border: none;
+     border-radius: 7px;
+     padding: 7px 16px;
+     font-size: 15px;
+     cursor: pointer;
+ }
+
+ .clear-btn:hover {
+     background-color: #d09c42;
+ }
+
+ ul.task-box {
+     list-style: none;
+     padding: 0;
+ }
+
+ ul.task-box li {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 10px 0;
+     border: 1px solid #ccc;
+     padding: 10px;
+     border-radius: 5px;
+     background-color: #fff;
+ }
+
+ ul.task-box li input {
+     margin-right: 12px;
+ }
+
+ ul.task-box li span {
+     flex: 1;
+ }
+
+ ul.task-box li button {
+     margin-left: 10px;
+     cursor: pointer;
+     border-radius: 4px;
+     padding: 3px 12px;
+     background-color: #f9e7cd;
+     border-width: 1px;
+ }
+
+ ul.task-box li button:hover {
+     background-color: #e0be7f;
+ }
+
+ .completed-task {
+     text-decoration: line-through;
+ }
+
+ .message {
+     text-align: center;
+     display: none;
+ }
