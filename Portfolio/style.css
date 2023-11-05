@@ -1,0 +1,175 @@
+body {
+    background-color: ivory;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 17px;
+}
+
+/* Navigation bar */
+.navbar {
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #705656;
+    color: #fff;
+    padding: 16px 100px;
+}
+
+.site-title {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(241, 178, 101);
+}
+
+/* About */
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+
+.about-content>div {
+    width: 30%;
+    margin-left: 59px;
+}
+
+.left {
+    font-size: 3rem;
+}
+
+.right img {
+    height: 320px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.left span {
+    color: #b41010e3;
+    font-weight: bold;
+}
+
+.download-button {
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 7px;
+    background-color: azure;
+    border: 1px solid rgb(211, 151, 151);
+}
+
+.download-button:hover {
+    background-color: rgb(147, 250, 250);
+    color: rgb(19, 19, 131);
+    font-weight: bold;
+}
+
+.about-image img {
+    height: 350px;
+    width: 315px;
+    border-radius: 5px;
+}
+
+/* Skills */
+#skills ul {
+    list-style: square;
+}
+
+#skills ul li {
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+/* Education */
+#education li {
+    list-style-type: square;
+    margin-bottom: 10px;
+    line-height: 28px;
+}
+
+#education li span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Projects */
+#projects h2 {
+    text-align: left;
+}
+
+#projects {
+    text-align: center;
+}
+
+.project {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    margin-bottom: 20px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project img {
+    width: 100%;
+    height: 245px;
+    border-radius: 5px;
+}
+
+.project p {
+    margin-top: 10px;
+}
+
+#project1 img {
+    height: 264px;
+}
+
+/* Contact */
+footer {
+    background-color: #705656;
+    color: #fff;
+    padding: 1px 12px;
+    border-radius: 8px;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul span {
+    font-weight: bold;
+}
+
+#contact li {
+    margin-bottom: 10px;
+}
+
+#contact li a {
+    color: #fcf0f0;
+    text-decoration: none;
+}
+
+#contact li a:hover {
+    color: rgb(241, 178, 101);
+}
